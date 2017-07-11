@@ -1,0 +1,589 @@
+@font-face {
+  font-family: bignoodletoo;
+  src: url(../fonts/bignoodletoo.ttf); 
+} 
+	.clan-table-gamers p:last{
+		width: 50px;
+	}
+	
+	.my-clans-block{
+		display: table;
+		width: 100%;
+	}
+	.admin-clans-block{
+		display: table;
+		width: 100%;		
+	}
+	.info-text-descript span{
+		font-family: 'Russo One', sans-serif;
+   		font-size: 20px;
+	}
+	.admin-clans-block button{
+		color: #fff;
+	    width: 100%;
+	    border: none;
+	    border-radius: 0 0 19px 19px;
+	    padding: 10px;
+	    background: #F9B109;
+	    font-family: bignoodletoo;
+	    font-size: 18px;
+		transition: all .5s;
+		-o-transition: all .5s;
+		-moz-transition: all .5s;
+		-webkit-transition: all .5s;
+	}
+	.clan-table-gamers tbody tr td:last-child{
+		color: #9e201d;
+	}
+	.admin-clans-block button:hover{
+		background: #00A0E3;
+		transition: all .5s;
+		-o-transition: all .5s;
+		-moz-transition: all .5s;
+		-webkit-transition: all .5s;
+	}
+	.my-clans-block button{
+	    width: 100%;
+	    border: none;
+	    border-radius: 0 0 19px 19px;
+	    padding: 10px;
+	    background: #F9B109;
+	    font-family: 'Russo One', sans-serif;
+	    font-size: 18px;
+		transition: all .5s;
+		-o-transition: all .5s;
+		-moz-transition: all .5s;
+		-webkit-transition: all .5s;	    
+	}
+	.my-clans-block button:hover{
+		background: #00A0E3;
+		transition: all .5s;
+		-o-transition: all .5s;
+		-moz-transition: all .5s;
+		-webkit-transition: all .5s;
+	}
+	.all-clans-block a{
+		color:#fff;
+		text-decoration: none;
+	}
+	.all-clans-block button{
+	    width: 100%;
+	    border: none;
+	    border-radius: 0 0 19px 19px;
+	    padding: 10px;
+	    background: #F9B109;
+	    font-family: 'Russo One', sans-serif;
+	    font-size: 18px;
+		transition: all .5s;
+		-o-transition: all .5s;
+		-moz-transition: all .5s;
+		-webkit-transition: all .5s;		
+	}
+	.all-clans-block button:hover{
+		background: #00A0E3;
+		transition: all .5s;
+		-o-transition: all .5s;
+		-moz-transition: all .5s;
+		-webkit-transition: all .5s;
+	}
+	.my-clans-block a{
+		color:#fff;
+		text-decoration: none;
+	}
+	.get-my-clans{
+	    background: #fff url(../img/bg-right-cart-clan.png) right bottom no-repeat;
+	    background-size: 84%;
+	    background-position-x: 128px;	
+		border: 4px solid #B2B3B3;
+		border-bottom: none;
+	    overflow: hidden;
+	    display: table;
+	    width: 100%;
+	    height: 180px;
+	    border-radius: 19px 19px 0 0;
+	    font-family: bignoodletoo;
+	    margin-top: 30px;
+
+	}
+	.get-my-clans img{
+		width: 50px;
+	}
+	.clan-navigation{
+		display: flex;
+	}
+	.clan-navigation li{
+		padding: 10px 20px;
+		cursor: pointer;
+		color: #fff;
+		text-transform: uppercase;
+		font-family: 'Russo One', sans-serif;
+		border-right: 1px solid #fff;
+	}
+	.clan-navigation li:first-child{
+		border-radius: 5px 0 0 5px;
+	}
+	.clan-navigation li:last-child{
+		border-radius: 0 5px 5px 0;
+	}
+
+	.clan-page{
+		background: rgba(66, 75, 95, 0.6);
+	}
+	.clan-page i{	
+		color:#FCBF3A;
+	}
+	.active-clan-page i{
+		color:#fff;
+	}
+	.active-clan-page{
+		background: #00A0E3;
+		transition: all .3s;
+		-o-transition: all .3s;
+		-moz-transition: all .3s;
+		-webkit-transition: all .3s;
+	}
+	.clan-left-colum{
+		background: url('../img/bg-black.jpg');
+		background-size: cover;
+		display: flex;
+		flex-direction: column;
+		height: 182px;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		color: #fff;
+	}
+	.clan-left-colum p{
+		font-size: 20px;
+	}
+	.clan-left-colum img{
+		width: 50px;
+		height: auto;
+		display: block;
+	}
+	.clan-right-colum{
+		width: 100%;
+		padding:0 15px;
+		position: relative;
+		height: 162px;
+
+	}
+	.clan-right-colum i{
+		position: absolute;
+		font-size: 18px;
+		color: #f9b109;
+		top:0;right:10px;
+	}
+	.clan-right-colum h3{
+	    font-family: 'Russo One', sans-serif;
+	    margin-top: 10px;
+	    font-size: 20px;
+	    display: table;
+	    background: rgba(255, 255, 255, 0.8);
+	}
+	.clan-right-colum p{
+		display: table;
+		color: #F18817;
+		font-size: 18px;
+		background: rgba(255, 255, 255, 0.8);
+	}
+	.clan-right-colum span{
+		color: #000;
+		padding: 0 5px;
+	}
+	.gamers-count{
+		background: rgba(255, 255, 255, 0.8);
+		color: #F18817;
+		font-size: 18px;
+		display: flex;
+		position: absolute;
+	    bottom: 10px;
+	    left: 15px;	
+	}
+	#clansContent{
+		position: relative;
+		display: table;
+		width: 100%;
+	}
+	.add-clan{
+		font-size: 20px;
+		background-color: #FCBF3A;
+		color:#fff;
+		padding: 10px;
+		border-radius: 5px;
+		cursor: pointer;
+		font-family: 'Russo One', sans-serif;
+	}
+	.title-clan{
+		margin: 25px 0;
+		font-family: 'Russo One', sans-serif;
+	}
+	.add-clan-description {
+		margin-top: 60px;
+		font-family: 'Russo One', sans-serif;
+	}
+	.add-clan-description button{
+		float: right;
+		padding: 10px 20px;
+		margin-right: 10%;
+		background-color: #fcbf3a;
+		color: #fff;
+		border: none;
+		border-radius: 5px;
+		transition: all .5s;
+		-o-transition: all .5s;
+		-moz-transition: all .5s;
+		-webkit-transition: all .5s;
+	}
+	.add-clan-description button:hover{
+		background-color: #00A0E3;
+		transition: all .5s;
+		-o-transition: all .5s;
+		-moz-transition: all .5s;
+		-webkit-transition: all .5s;
+	}
+	.add-clan-description textarea{
+		width: 90%;
+		height: 150px;
+		padding: 5px;
+		font-family: tahoma;
+		font-size: 18px;
+		border-radius: 5px;
+		font-style: italic;
+	}
+	.create-clan-block input{
+		
+		width:90%;
+		padding: 5px;
+		font-size: 18px;
+		border-radius: 5px;
+		font-family: tahoma;
+	}
+	.create-clan-block{
+		font-family: 'Russo One', sans-serif;
+	}
+	.info-clan-close{
+		text-align: center;
+		color:#fff;
+		background-color: #00A0E3;
+		width: 100%;
+	    border: none;
+	    border-radius: 0 0 19px 19px;
+	    padding: 10px;
+	    font-family: 'Russo One', sans-serif;
+	    font-size: 18px;
+	    transition: all .5s;
+	    -o-transition: all .5s;
+	    -moz-transition: all .5s;
+	    -webkit-transition: all .5s;		
+	}
+	.myClan-left-ifoblock{
+		width: 100%;
+		display: table;
+		background:url(/img/bg-black.jpg);
+		background-size: cover;
+		color:#fff;
+	}
+	.myClan-clan-info{
+		border: 3px solid #B2B3B3;
+		display: table;
+		width: 100%;
+		border-radius: 0 20px 0 0;
+		position: relative;
+		font-size: 20px;
+	}
+	.logout-clan{
+		position: absolute;
+		top:5px;right:5px;
+		color: #9e201d;
+    	font-size: 15px;
+    	font-family: 'Russo One', sans-serif;
+    	cursor: pointer;
+    	z-index: 1000;
+	}
+	.logout-clan i{
+		font-size: 20px;
+		color: #444;
+	}
+	.myClan-clan-info h2{
+		font-family: 'Russo One', sans-serif;
+		margin-top:28px;
+	}
+	.myClan-clan-info span{
+		font-family: 'Russo One', sans-serif;
+		font-size: 20px;
+	}
+	.myClan-left-ifoblock img{
+		width:100%;
+		padding: 15px;
+	}
+	.myClan-left-ifoblock{
+		text-align: center;
+	}
+	.myClan-right-ifoblock p{
+		font-family: 'Open Sans', sans-serif;
+		border-bottom: 2px solid #777;
+		margin:0;
+		padding: 0 5px;
+	    display: table;
+	    width: 100%;
+	}
+	#clanBoss{
+		font-family: 'Open Sans', sans-serif;
+		font-style:normal;
+	}
+	.myClan-right-ifoblock span{
+    	padding: 4px;
+    	float: left;
+	}
+	.clan-badge-img img{
+		width:50%;
+		display: table;
+		margin:0 auto;
+		padding: 15px;
+	}
+	.info-text{
+		margin-top: 10px;
+	}
+	.info-text-descript{
+		padding: 15px;
+		background: #8e939f;
+		color: #fff;
+	}
+	.clan-table-gamers{
+		font-family: 'Russo One', sans-serif;
+		vertical-align:middle;
+		height: 100%;
+		width: 100%;
+		text-align: center;	
+		font-size: 20px;	
+	}
+	.clan-table-gamers tbody img{
+		width: 75px;
+		/* border-radius: 50%; */
+	}
+	.clan-table-gamers tbody p{
+		margin:0;
+		padding: 0 20px;
+	}
+	.clan-table-gamers tbody td{
+		vertical-align:middle;
+		height: 100%;
+		text-align: center;
+		border-bottom: 2px solid #777;
+		padding: 20px;
+	}
+	.clan-table-gamers td:first-child{
+		background: url(/img/one-td-bg.jpg);
+		background-size: cover;
+		color:#fff;
+		padding: 20px;
+		border-left:3px solid #00A0E3;
+		border-right:3px solid #00A0E3;
+	}
+	.count-gamers-block{
+		font-family: 'Russo One', sans-serif;
+		font-size: 20px;
+	}
+	.count-gamers-block span{
+		font-family: 'Open Sans', sans-serif;
+	    color: #9e201d;
+	    font-weight: bold;
+	}
+	.editClan-table{
+		margin-bottom: 0;
+	}
+	.editClan-table img{
+		width: 80px;
+	}
+	.editClan-table input{
+		width: 200px;
+	    border-radius: 3px;
+	    padding: 0 5px;
+	    border: 1px solid #a9a9a9;
+	}
+	.editClan-table textarea{
+		width: 100%;
+
+	}
+	.edit-clan-block h2{
+		font-family: 'Russo One', sans-serif;
+	}
+	.table-my-Applyes img{
+		width: 100px;
+		max-height: 100px;
+	}
+	.save-edit-clan{
+		display: table;
+		padding: 5px 20px;
+		border-radius: 3px;
+		background:#2cbb2c;
+		border:none;
+		color: #fff;
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+	.up-seats{
+		padding: 3px 10px;
+		border-radius: 3px;
+		background:#00a0e3;
+		border:none;
+		color: #fff;
+		font-weight: bold;		
+	}
+	.filed{
+		background: #905e5d;
+	    display: table;
+	    padding: 5px 20px;
+	    color: #fff;
+	    font-weight: bold;
+	}
+	.apply-block{
+		display: table;
+	    color: #2cbb2c;
+	    padding: 10px;
+	    font-size: 18px;		
+	}
+	.apply-block button{
+		font-family: 'Russo One', sans-serif;
+	    display: table;
+	    padding: 5px 20px;
+	    border-radius: 3px;
+	    background: #fcbf3a;
+	    border: none;
+	    color: #fff;
+	    margin: 10px;
+	}
+	.join-clan{
+	    display: table;
+	    padding: 5px 20px;
+	    border-radius: 3px;
+	    background: #00a0e3;
+	    border: none;
+	    color: #fff;
+	    margin: 10px;	
+	}
+
+	.table-clan-Applyes{
+		text-align: center;	
+	}
+	
+	.table-clan-Applyes thead{
+	    background: #00a0e3;
+	    color: #fff;
+	    font-family: 'Russo One', sans-serif;
+	    text-transform: uppercase;	
+	}
+
+	.table-clan-Applyes tbody>tr>td{
+	    vertical-align: middle;
+	    height: 100%;
+	}
+
+	.table-clan-Applyes input{
+		width: 200px;
+		border-radius: 5px;
+		padding: 0 5px;
+	}
+	.table-clan-Applyes img{
+		width: 50px;
+		max-height: 60px;
+	}
+	.apply-add{
+		padding: 10px;
+		color: #2cbb2c;
+		cursor: pointer;
+		transition: all .5s;
+		-o-transition: all .5s;
+		-moz-transition: all .5s;
+		-webkit-transition: all .5s;			
+	}
+	.apply-add:hover{
+		background: #2cbb2c;
+		color: #fff;
+		transition: all .5s;
+		-o-transition: all .5s;
+		-moz-transition: all .5s;
+		-webkit-transition: all .5s;	
+	}
+	.apply-refuse{
+		padding: 10px;
+		color: #9e201d;
+		cursor: pointer;
+		transition: all .5s;
+		-o-transition: all .5s;
+		-moz-transition: all .5s;
+		-webkit-transition: all .5s;		
+	}
+	.apply-refuse:hover{
+		background: #9e201d;
+		color: #fff;
+		transition: all .5s;
+		-o-transition: all .5s;
+		-moz-transition: all .5s;
+		-webkit-transition: all .5s;		
+	}
+
+	.rulies-popup-block{
+		position: absolute;
+		top:20px;left: 20px;
+		background:#fff;
+		display: table;
+		width: 95%;
+		height: 100%;
+		padding: 20px;
+		padding-bottom: 200px;
+		visibility: hidden;
+		border-radius: 5px;
+		border: 3px solid #F9B109;
+		z-index: 5000;
+		opacity: 0;
+		transition: all .5s;
+		-o-transition: all .5s;
+		-moz-transition: all .5s;
+		-webkit-transition: all .5s;		
+	}
+	.rules-info{
+		font-family: 'Russo One', sans-serif;
+	}
+	.rulies-popup-block i{
+		float: right;
+		font-size: 30px;
+		color: #9e201d;
+		cursor: pointer;
+
+	}	
+
+	.table-clan-invite{
+		text-align: center;	
+	}
+	
+	.table-clan-invite thead{
+	    background: #FCBF3A;
+	    color: #fff;
+	    font-family: 'Russo One', sans-serif;
+	    text-transform: uppercase;	
+	}
+
+	.table-clan-invite tbody>tr>td{
+	    vertical-align: middle;
+	    height: 100%;
+	}
+
+	.table-clan-invite input{
+		width: 200px;
+		border-radius: 5px;
+		padding: 0 5px;
+	}
+	.table-clan-invite img{
+		width: 50px;
+		max-height: 60px;
+	}
+
+	.invite-event button{
+	    padding: 5px 10px;
+	    border: none;
+	    border-radius: 3px;
+	    background: #3c763d;
+	    color: #fff;
+	}	

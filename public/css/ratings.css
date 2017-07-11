@@ -1,0 +1,234 @@
+	.clans-rating{
+		margin:0 auto;
+		border-radius: 10px;
+		
+		padding: 20px;
+		cursor: pointer;
+		background:#F9B414;
+		box-shadow: 0 0 10px #F9B414;
+	}
+	.clans-rating p{
+		display: flex;
+		justify-content: center;
+		margin:0;
+		color: #fff;
+		font-family: 'Russo One', sans-serif;
+	}
+
+	.users-rating{
+		border-radius: 10px;
+		margin:0 auto;
+		padding: 20px;
+		cursor: pointer;
+		background:#00A0E3;
+		box-shadow: 0 0 10px #00A0E3;
+	}
+	.users-rating p{
+		display: flex;
+		justify-content: center;
+		margin:0;
+		color: #fff;
+		font-family: 'Russo One', sans-serif;
+	}
+	.order-block{
+		display: none;
+		justify-content: center;
+		padding: 30px;
+	}
+	.order-block input{
+		padding: 5px 10px;
+		border-radius:5px 0 0 5px;
+	}
+	.order-block button{
+	    color: #fff;
+	    background: #444;
+	    border: none;
+	    padding: 10px;
+	    border-radius: 0 5px 5px 0;
+	}
+	.ratingUsers {
+		font-size: 20px;
+	}
+	.ratingUsers td{
+		height: 100%;
+	}
+	.ratingUsers thead tr{
+		text-align: center;	
+	    background: #00A0E3;
+	    color: #fff;
+	    font-family: 'Russo One', sans-serif;
+	}
+	.ratingUsers tbody tr{
+
+	}
+	.ratingUsers tbody tr button{
+		padding: 5px 10px;
+		border:none;
+		text-transform: lowercase;
+	    background: #21ad23;
+	    border-radius: 3px;
+	    color: #fff;		
+	}
+	.ratingUsers img{
+		width: 50px;
+		display: table;
+		margin:0 auto;
+	}
+	.ratingUsers i{
+		font-size:25px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+
+	}
+	.ratingUsers p{
+		margin:0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+	}
+
+	.ratingHeroes {
+		font-size: 20px;
+	}
+	.ratingHeroes td{
+		height: 100%;
+	}
+	.ratingHeroes thead tr{
+		text-align: center;	
+	    background: #8187bb;
+	    color: #fff;
+	    font-family: 'Russo One', sans-serif;
+	}
+	.ratingHeroes tbody tr{
+
+	}
+	.ratingHeroes tbody tr button{
+		
+	}
+	.ratingHeroes img{
+		width: 50px;
+		display: table;
+		margin:0 auto;
+	}
+	.ratingHeroes i{
+		font-size:25px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+
+	}
+	.ratingHeroes p{
+		margin:0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+	}
+
+	.ajax-loader{
+		width: 100px;
+		display: table;
+		margin:100px auto;
+		background: #fff;
+	}
+
+	.fa-info-circle{
+		cursor: pointer;
+	}
+
+	.ratingClans {
+		font-size: 20px;
+	}
+	.ratingClans td{
+		height: 100%;
+	}
+	.ratingClans thead tr{
+		text-align: center;	
+	    background-color: #f9b414;
+	    color: #fff;
+	    font-family: 'Russo One', sans-serif;
+	}
+	.ratingClans tbody tr{
+		cursor: pointer;
+	}
+	.ratingClans img{
+		width: 50px;
+		display: table;
+		margin:0 auto;
+	}
+	.ratingClans i{
+		font-size:25px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+
+	}
+	.ratingClans p{
+		margin:0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+	}
+	.rating-navigation{
+		margin-top: 30px;
+	    font-size: 40px;		
+	}
+	.rating-navigation i{
+		padding: 7px
+	}
+	.heros-rating{
+	    border-radius: 10px;
+	    margin: 0 auto;
+
+	    padding: 20px;
+	    cursor: pointer;
+	    background: #8187bb;
+	    box-shadow: 0 0 10px #8187bb;		
+	}
+	.heros-rating p{
+	    display: flex;
+	    justify-content: center;
+	    margin: 0;
+	    color: #fff;
+	    font-family: 'Russo One', sans-serif;
+	}
+	#ratingHeros{
+		margin-top: 30px;
+	}
+	#heros-menu img{
+		width: 100%;
+	}
+	#heros-menu button{
+	    background: #8187bb;
+	    border: none;
+	    color: #fff;
+	    font-size: 20px;
+	    border-radius:0 5px 5px 0;
+	    padding: 5px 10px;
+	    font-family: 'Russo One', sans-serif;
+	}
+
+	#heros-menu p{
+	    font-family: 'Russo One', sans-serif;
+	    font-size: 20px;	
+	}
+	#heros-menu span{
+		color: #9e201d;
+	}
+	#heros-menu h2{
+		font-family: 'Russo One', sans-serif;
+	}
+	#getHero{
+		border-radius: 5px 0 0 5px;
+		width: 50%;
+		font-size: 20px;
+		font-family: 'Russo One', sans-serif;
+		color: #9e201d;
+		padding:5px 10px;
+	}

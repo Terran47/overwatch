@@ -1,0 +1,49 @@
+.posts-block{
+	display: table;
+	width: 100%;
+	box-sizing: border-box;
+}
+.posts-block ul{
+	display: table;
+	padding:0;
+	margin: 0;
+	width: 100%;
+	position: relative;
+}
+.posts-block ul li{
+	display: table;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    background: radial-gradient(rgba(46, 57, 66, 0.84),rgb(46, 49, 57));
+    background: -webkit-radial-gradient(rgba(46, 57, 66, 0.84),rgb(46, 49, 57));
+    background: -o-radial-gradient(rgba(46, 57, 66, 0.84),rgb(46, 49, 57));
+    background: -ms-radial-gradient(rgba(46, 57, 66, 0.84),rgb(46, 49, 57));
+    background: -moz-radial-gradient(rgba(46, 57, 66, 0.84),rgb(46, 49, 57));
+    margin-bottom: 20px;
+    border: 1px solid rgba(0,0,0,0.4);
+    border-radius: 3px;
+}
+.posts-block ul li img{
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 15px 0;
+}
+.posts-block ul li p{
+	color: #fff;
+}
+.btn-default {
+    color: #fffaf5;
+    background-color: #ce7e31;
+    border-color: #ce731b;
+}
+.posts-block ul li ul, .posts-block ul li ul li{
+	width: initial;
+	color: #fff;
+	margin: 5px 0;
+}
+.posts-block ul li ul{
+	margin: 0;
+	padding: 0;
+}

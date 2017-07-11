@@ -1,0 +1,26 @@
+
+.products-block{
+	display: table;
+	background: url(/img/auth-bg.jpg) center;
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+}
+.product-coins{
+	margin-top: 15px;
+	padding: 15px;
+	text-align: center;
+	background:rgba(255, 255, 255, 0.79);
+	border-radius: 20%;
+	border: 3px solid #F9B109;
+}
+.product-coins p{
+	margin: 0;
+	font-size: 20px;
+	color: #708188;
+}
+.product-coins img{
+	width: 80px;
+	height: 60px;
+	border-radius: 20%;
+}
